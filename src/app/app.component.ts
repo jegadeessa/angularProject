@@ -11,15 +11,18 @@ export class AppComponent  {
       name:"apple",
       description:"It's a product",
       price:"5000",
+      productId:"0"
     },
     {
       name:"iphone",
       description:"It's a product",
       price:"500",
+      productId:"1"
     },
     {
       name:"samsung",
       price:"50000",
+      productId:"2"
     }
   ];
   share(){
