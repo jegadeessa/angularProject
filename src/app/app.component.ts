@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  products =[
+    {
+      name:"apple",
+      description:"It's a product"
+    },
+    {
+      name:"iphone",
+      description:"It's a product"
+    },
+    {
+      name:"samsung",
+    }
+  ];
+  share(){
+    alert("This product has been shared");
+  }
 }
