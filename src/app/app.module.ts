@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
+import { AltPipe } from './pipe/alt.pipe';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,
@@ -15,7 +16,7 @@ import { ProductInfoComponent } from './product-info/product-info.component';
       { path: '', component:ProductAlertsComponent }
     ])
    ],
-  declarations: [ AppComponent, HelloComponent, ProductAlertsComponent, ProductInfoComponent ],
+  declarations: [ AppComponent, HelloComponent, ProductAlertsComponent, ProductInfoComponent, AltPipe ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

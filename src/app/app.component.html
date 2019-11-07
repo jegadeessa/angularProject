@@ -6,7 +6,7 @@
     </a>
   </h3>
   <p *ngIf = "product.description">
-    {{product.description}}
+    {{product.description | alt}}
   </p>
   <button (click)="share()">share</button>
   <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
