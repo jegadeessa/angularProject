@@ -1,1 +1,6 @@
 /* Add application styles & imports to this file! */
+button{
+  width:100px;
+  height:30px;
+  margin:5px 0;
+}

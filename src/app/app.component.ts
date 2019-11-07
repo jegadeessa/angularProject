@@ -9,17 +9,23 @@ export class AppComponent  {
   products =[
     {
       name:"apple",
-      description:"It's a product"
+      description:"It's a product",
+      price:"5000",
     },
     {
       name:"iphone",
-      description:"It's a product"
+      description:"It's a product",
+      price:"500",
     },
     {
       name:"samsung",
+      price:"50000",
     }
   ];
   share(){
     alert("This product has been shared");
+  }
+  onNotify() {
+    window.alert('You will be notified when the product goes on sale');
   }
 }
